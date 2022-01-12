@@ -21,10 +21,10 @@ class Login extends React.Component {
   };
   render() {
     return (
-      <div className="wrapper">
-        <div className="screen">
+      <div className="wrapper ">
+        <div className="screen bg-info">
           <form>
-            <div className="form-group">
+            <div className="form-group text-dark">
               <label>Name Player1</label>
               <input
                 type="name"
@@ -42,7 +42,7 @@ class Login extends React.Component {
               />
             </div>
 
-            <button onClick={this.handleClick} className="btn btn-primary ">
+            <button onClick={this.handleClick} className="btn btn-primary  ">
               Submit
             </button>
           </form>
