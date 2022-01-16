@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-class Login extends React.Component {
+export default class Login extends React.Component {
   state = {
     player1: "",
     player2: "",
@@ -52,4 +52,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+
